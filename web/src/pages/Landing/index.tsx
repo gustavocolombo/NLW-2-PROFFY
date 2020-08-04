@@ -6,12 +6,13 @@ import studyIcon from '../../assets/images/icons/study.svg';
 import giveClassesIcon from '../../assets/images/icons/give-classes.svg';
 import purpleHeart from '../../assets/images/icons/purple-heart.svg';
 
+import './styles.css';
 
 
 export default function Landing(){
   return (
     <div id="page-landing">
-      <div id="pagr-landing-content" className="container">
+      <div id="page-landing-content" className="container">
         <div className="logo-container">
           <img src= { logo } alt="logo"/>
           <h2>Sua plataforma de estudos online</h2>
@@ -21,7 +22,7 @@ export default function Landing(){
 
         <div className="buttons-container">
           <a href="/" className="study">
-            <img src= { studyIcon } alt= "estudar"/>
+            <img src= { studyIcon } alt= "estudar"/>  
             Estudar
           </a>
 
@@ -31,7 +32,7 @@ export default function Landing(){
           </a>
 
           <span className="total-connections">
-            Total de 200 conexões já realizadas <img src= { purpleHeart } alt= "coração roxo"/>
+            Total de 200 conexões  <img src= { purpleHeart } alt= "coração roxos"/>
           </span>
         </div>
       </div>
